@@ -1,5 +1,5 @@
 #!/usr/bin/perl-w
-#This script was used to extract change the sequence name in a .og file based on a two-column mating data (the first is the name in OrthoGroup, the second is the original one).
+#This script was used to change sequence names in '.og' file based on a two-column mating data (the first is the name in OrthoGroup, the second is the original one).
 #Only items with successfully replaced sequence names will be kept for futher analysis.
 use strict;
 my $usage = "perl  this_script.pl  MatingDatePairCombined  input_OrthoGroup_file(.og file)";
